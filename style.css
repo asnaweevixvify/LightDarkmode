@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #ff8079;
+}
+ul{
+    display: flex;
+    margin-top: 20px;
+    justify-content:center;
+}
+li{
+    list-style: none;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.h1-1{
+    font-family: 'Kanit';
+    font-weight: 400;
+    color: white;
+}
+.h1-2{
+    color: white;
+    font-family: 'Kanit';
+    font-weight: 400;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 150px;
+}
+.h1-3{
+    color: white;
+    font-family: 'Kanit';
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 150px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: #9f7370;
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h1-4{
+    color: white;
+    font-family: 'Kanit';
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: #9f7370;
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logoall{
+    margin-top: 70px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    display: flex;
+    justify-content:left;
+    margin-top: 40px;
+}
+#pr{
+    width:50px;
+    height:50px;
+    padding: 10px;
+}
+.proall{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.butig{
+    border: 2px solid transparent;
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 230px;
+    background-color: white;
+}
+.butig2{
+    border: 2px solid transparent;
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 230px;
+    background-color: white;
+    margin-left: 20px;
+}
+.textig{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: 15;
+}
+.buttom{
+    width: 100px;
+    height: 100px;
+}
