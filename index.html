@@ -14,18 +14,33 @@
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    <script src="https://kit.fontawesome.com/9bc1020bc5.js" crossorigin="anonymous"></script>
+
   />
 </head>
-<body>
+<body class="body">
+  <section id="home">
     <div class="navbar">
-        <ul>
-            <li> <h1 class="h1-1">Home</h1></li>
-            <li> <h1 class="h1-1">Skills</h1></li>
-            <li> <h1 class="h1-1">Contact</h1></li>
-            <li><input type="radio"></li>
+        <ul class="ul">
+            <li><a href="#home"> <h1 class="h1-1">Home</h1></a></li>
+            <li><a href="#Skills"> <h1 class="h1-1">Skills</h1></a></li>
+            <li><a href="#contact"> <h1 class="h1-1">Contact</h1></a></li>
+              <div class="switchcontainer">
+                  <div class="switch">
+                      <h3 class="h3">โหมดกลางวัน</h3>
+                      <i class="fa-solid fa-sun fa-xl" id="icons" style="color: #ffffff;"></i>
+                  </div>
+                  <label class="switchbutton">
+                      <input type="checkbox" onclick="modeChange()" class="check">
+                      <span class="slider"></span>
+                  </label>
+              </div>
         </ul>
     </div>
-    <h1 class="h1-2"> Welcome To Vixvify Website</h1>
+    
+        <h1 class="h1-2"> Welcome To Vixvify Website</h1>
+    </section>
+    <section id="Skills">
     <h1 class="h1-3"> Skills</h1>
     <div class="logoall">
         <div class="logo" data-aos="fade-up" >
@@ -52,6 +67,8 @@
             <img src="/pic/ดีไซน์ที่ยังไม่ได้ตั้งชื่อ.png" id="pr">
         </div>
         </div>
+      </section>
+      <section id="Contact">
     <h1 class="h1-4"> Contact</h1>
     <div class="proall">
         <div class="so">
@@ -75,6 +92,8 @@
                 </a>
                 </div> 
         </div>
+      </section>
         <p class="buttom"></p>
+        <script src="app.js"></script>
 </body>
 </html>
